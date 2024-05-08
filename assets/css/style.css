@@ -168,3 +168,144 @@ h1.text-white {
     color: #8973f7;
     cursor: pointer;
 }
+
+/*Media queries for responsiveness*/
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .img-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .odd-col {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
+}
+
+@media (max-width: 767px) {
+  main .header.header-06 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .header.header-06 .header-right {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  main .main-wrapper.demo-06 .hero-area h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .main-wrapper.demo-06 .hero-area h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  main .main-wrapper.demo-06 .hero-area h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  main .main-wrapper.demo-06 .hero-area .countdown .single-count-content::after {
+    top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .main-wrapper.demo-06 .hero-area .countdown .single-count-content::after {
+    top: 30px;
+    font-size: 45px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  main .main-wrapper.demo-06 .team-area {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .main-wrapper.demo-06 .team-area .section-title h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  main .main-wrapper.demo-06 .team-area .section-title h1 {
+    font-size: 22px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  main .main-wrapper.demo-06 .team-area .section-title h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  main .main-wrapper.demo-06 .team-area .section-title h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  main .footer p {
+    text-align: center;
+  }
+}
+
+main .footer .credit {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  main .footer .credit {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading h1 {
+      font-size: 20px; 
+  }
+}
